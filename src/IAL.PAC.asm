@@ -689,32 +689,23 @@
 .sjisn "I'm leaving tomorrow. "
 .dh @msg_end
 
-; 48
-; ptrs
-.org 0x1596c
-.dw 0x0
-.org 0x15970
-.dw 0x0
-; text
-.org 0x15800
-
 ; 49
 ; ptrs
 .org 0x15954
-.dw 0x0
+.dw 0x14
 .org 0x15958
-.dw 0x0
+.dw 0x14
 ; text
-.org 0x15800
+.org 0x15814
 .sjisn "Reggie left this note."
 .dh @msg_end
 
 ; 50
 ; ptrs
 .org 0x15964
-.dw 0x18
+.dw 0x2c
 ; text
-.org 0x15818
+.org 0x1582c
 .sjisn "No need to ask my permission. "
 .dh @newline
 .sjisn "Just read it quickly. "
@@ -723,9 +714,9 @@
 ; 51
 ; ptrs
 .org 0x15968
-.dw 0x50
+.dw 0x64
 ; text
-.org 0x15850
+.org 0x15864
 .sjisn "She was a good girl "
 .dh @newline
 .sjisn "I hope she gets home safely."
@@ -734,51 +725,37 @@
 ; 52
 ; ptrs
 .org 0x1595c
-.dw 0x84
+.dw 0x98
 .org 0x15960
-.dw 0x84
+.dw 0x98
 ; text
-.org 0x15884
+.org 0x15898
 .sjisn "Nothing found."
 .dh @msg_end
 
 ; 53
 ; ptrs
 .org 0x15974
-.dw 0x94
+.dw 0xa8
 ; text
-.org 0x15894
-.dh @pause
-.dh 0x0
+.org 0x158a8
 .dh @newline
 .dh @newline
 .dh @newline
 .dh @newline
-.dh @pause
-.dh 0x0
-.dh @pause
-.dh 0x4
-.sjisn "I'm all better! "
+.sjisn "          "
+.sjisn "I'm all better now. "
 .dh @newline
-.dh @pause
-.dh 0x0
-.dh @pause
-.dh 0x4
-.sjisn "I'm going to"
+.sjisn "          "
+.sjisn "I'm going outside to"
 .dh @newline
-.dh @pause
-.dh 0x0
-.dh @pause
-.dh 0x4
-.sjisn "go find Nick! "
+.sjisn "          "
+.sjisn "find Nick!"
 .dh @newline
-.dh @pause
-.dh 0x0
-.dh @pause
-.dh 0x4
-.sjisn "Watch the house while I'm "
+.sjisn "          "
+.sjisn "Watch the house while "
 .dh @newline
-.sjisn "gone! "
+.sjisn "          I'm gone. "
 .dh @msg_end
 
 ; 54
@@ -2262,6 +2239,7 @@
 ; text
 .org 0x5b036
 .sjisn "I see the young'ns have these "
+.dh @newline
 .sjisn "for breakfast..."
 .dh @newline
 .dh @newline
@@ -2274,27 +2252,27 @@
 ; 182
 ; ptrs
 .org 0x5b150
-.dw 0xba
+.dw 0xbc
 ; text
-.org 0x5b0ba
+.org 0x5b0bc
 .sjisn "I don't need this."
 .dh @msg_end
 
 ; 183
 ; ptrs
 .org 0x5b154
-.dw 0xce
+.dw 0xd0
 ; text
-.org 0x5b0ce
+.org 0x5b0d0
 .sjisn "Drinking it restores health."
 .dh @msg_end
 
 ; 184
 ; ptrs
 .org 0x5b158
-.dw 0xec
+.dw 0xee
 ; text
-.org 0x5b0ec
+.org 0x5b0ee
 .sjisn "An energy drink."
 .dh @newline
 .sjisn "Drinking it restores health."

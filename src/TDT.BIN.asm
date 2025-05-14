@@ -1111,19 +1111,19 @@
 .sjisn "Oh, well. "
 .dh @triangle
 .dh @newline
-.sjisn "I'm more concerned about you, "
+.sjisn "I'm more concerned about"
 .dh @newline
-.sjisn "professor."
+.sjisn "the professor."
 .dh @newline
-.sjisn "I hope you're okay. "
+.sjisn "I hope he's okay. "
 .dh @msg_end
 
 ; 93
 ; ptrs
 .org 0x96270
-.dw 0x10ae
+.dw 0x10aa
 ; text
-.org 0x960ae
+.org 0x960aa
 .sjisn "This thing won't even budge."
 .dh @newline
 .sjisn "But if we had a "
@@ -1139,9 +1139,9 @@
 ; 94
 ; ptrs
 .org 0x96274
-.dw 0x110c
+.dw 0x1108
 ; text
-.org 0x9610c
+.org 0x96108
 .sjisn "Hum, I don't think we can "
 .sjisn "go any further unless we"
 .dh @newline
@@ -1151,9 +1151,9 @@
 ; 95
 ; ptrs
 .org 0x96278
-.dw 0x1156
+.dw 0x1152
 ; text
-.org 0x96156
+.org 0x96152
 .sjisn "There is a landslide, you can't go"
 .dh @newline
 .sjisn "any further."
@@ -1162,9 +1162,9 @@
 ; 96
 ; ptrs
 .org 0x9627c
-.dw 0x1188
+.dw 0x1184
 ; text
-.org 0x96188
+.org 0x96184
 .sjisn "I wish there was some "
 .dh @colour
 .dh 0x2
@@ -4181,26 +4181,25 @@
 .dw 0x10d0
 ; text
 .org 0x3388d0
-.sjisn "Ah, the professor "
-.dh @newline
-.sjisn "should come first."
+.sjisn "Ah, I should go find"
+.sjisn "the professor!"
 .dh @msg_end
 
 ; 322
 ; ptrs
 .org 0x338f0c
-.dw 0x10f8
+.dw 0x10f4
 ; text
-.org 0x3388f8
+.org 0x3388f4
 .sjisn "Did you see that? "
 .dh @msg_end
 
 ; 323
 ; ptrs
 .org 0x338f10
-.dw 0x110c
+.dw 0x1108
 ; text
-.org 0x33890c
+.org 0x338908
 .sjisn "... What happened "
 .dh @newline
 .sjisn "just now...?"
@@ -4213,9 +4212,9 @@
 ; 324
 ; ptrs
 .org 0x338f14
-.dw 0x115a
+.dw 0x1156
 ; text
-.org 0x33895a
+.org 0x338956
 .sjisn "They attacked us so "
 .dh @newline
 .sjisn "suddenly that I didn't"
@@ -4228,9 +4227,9 @@
 ; 325
 ; ptrs
 .org 0x338f18
-.dw 0x11bc
+.dw 0x11b8
 ; text
-.org 0x3389bc
+.org 0x3389b8
 .sjisn "If this goes on, we won't "
 .dh @newline
 .sjisn "have time to search for the "
@@ -4241,9 +4240,9 @@
 ; 326
 ; ptrs
 .org 0x338f1c
-.dw 0x1212
+.dw 0x120e
 ; text
-.org 0x338a12
+.org 0x338a0e
 .sjisn "Well, I guess we'll "
 .dh @newline
 .sjisn "need some "
@@ -4259,9 +4258,9 @@
 ; 327
 ; ptrs
 .org 0x338f20
-.dw 0x125c
+.dw 0x1258
 ; text
-.org 0x338a5c
+.org 0x338a58
 .sjisn "As luck would have it,"
 .dh @newline
 .sjisn "I happened to bring this"
@@ -4272,9 +4271,9 @@
 ; 328
 ; ptrs
 .org 0x338f24
-.dw 0x129e
+.dw 0x129a
 ; text
-.org 0x338a9e
+.org 0x338a9a
 .sjisn "        !!"
 .dh @pause
 .dh 0x1e
@@ -4288,9 +4287,9 @@
 ; 329
 ; ptrs
 .org 0x338f28
-.dw 0x12c4
+.dw 0x12c0
 ; text
-.org 0x338ac4
+.org 0x338ac0
 .sjisn "About three years ago,"
 .dh @newline
 .sjisn "Professor Amedeo came home"
@@ -4315,9 +4314,9 @@
 ; 330
 ; ptrs
 .org 0x338f2c
-.dw 0x139e
+.dw 0x139a
 ; text
-.org 0x338b9e
+.org 0x338b9a
 .sjisn "\"Examinations\"? "
 .dh @newline
 .sjisn "Won't you kill something"
@@ -4328,9 +4327,9 @@
 ; 331
 ; ptrs
 .org 0x338f30
-.dw 0x13e4
+.dw 0x13e0
 ; text
-.org 0x338be4
+.org 0x338be0
 .sjisn "It looks dangerous, but it's"
 .dh @newline
 .sjisn "not very powerful."
@@ -4347,18 +4346,18 @@
 ; 332
 ; ptrs
 .org 0x338f34
-.dw 0x145a
+.dw 0x1456
 ; text
-.org 0x338c5a
+.org 0x338c56
 .sjisn "Why did you bring that? "
 .dh @msg_end
 
 ; 333
 ; ptrs
 .org 0x338f38
-.dw 0x1474
+.dw 0x1470
 ; text
-.org 0x338c74
+.org 0x338c70
 .sjisn "I couldn't find a place for "
 .dh @newline
 .sjisn "it during spring cleaning,"
@@ -4371,9 +4370,9 @@
 ; 334
 ; ptrs
 .org 0x338f3c
-.dw 0x14e0
+.dw 0x14dc
 ; text
-.org 0x338ce0
+.org 0x338cdc
 .sjisn "I guess it beats"
 .dh @newline
 .sjisn "being unarmed..."
@@ -4382,9 +4381,9 @@
 ; 335
 ; ptrs
 .org 0x338f40
-.dw 0x1504
+.dw 0x1500
 ; text
-.org 0x338d04
+.org 0x338d00
 .sjisn "Well then, let's get back "
 .dh @newline
 .sjisn "to exploring. "
