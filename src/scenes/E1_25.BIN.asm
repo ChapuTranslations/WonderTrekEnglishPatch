@@ -88,6 +88,7 @@
 ; 8
 .org 0x62f0
 .sjisn "It's at the summit of "
+.dh @newline
 .dh @colour
 .dh 0x2
 .sjisn "Mount Novorina"
@@ -169,7 +170,7 @@
 .dh @msg_end
 
 ; 16
-.org 0x6576
+.org 0x6578
 .sjisn "The poacher "
 .dh @colour
 .dh 0x2

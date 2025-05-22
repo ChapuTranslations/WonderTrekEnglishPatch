@@ -72,10 +72,9 @@
 .dh @msg_end
 
 ; 8
-.org 0x2fa2
+.org 0x2fa4
 .sjisn "There's no doubt about it."
 .dh @newline
-.sjisn "  "
 .dh @newline
 .sjisn "I didn't believe a bunch of "
 .sjisn "poachers could find the "

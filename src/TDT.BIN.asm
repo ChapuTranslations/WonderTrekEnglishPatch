@@ -4469,9 +4469,9 @@
 .sjisn "Ah, I found a great medicine! "
 .dh @triangle
 .dh @newline
-.sjisn "Grandpa said that you could "
+.sjisn "Grandpa said that you could cure"
 .dh @newline
-.sjisn "cure stomach ache by swallowing "
+.sjisn "a stomach ache by swallowing"
 .dh @newline
 .sjisn "whole humans. "
 .dh @newline
@@ -6163,13 +6163,13 @@
 .sjisn "Hey, I know this one, "
 .sjisn "professor!"
 .dh @newline
-.sjisn "It is a "
+.sjisn "It's a"
 .dh @colour
 .dh 0x2
-.sjisn "laughing owl"
+.sjisn " laughing owl,"
 .dh @colour
 .dh 0x1
-.sjisn ", "
+.dh @newline
 .sjisn "isn't it? "
 .dh @msg_end
 
